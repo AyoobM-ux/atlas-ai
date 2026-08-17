@@ -1,0 +1,20 @@
+[
+  {
+    "question": "What is an eigenvalue?",
+    "course": "Linear Algebra",
+    "topic": "Eigenvalues",
+    "difficulty": 2
+  },
+  {
+    "question": "What is a derivative?",
+    "course": "Calculus",
+    "topic": "Derivatives",
+    "difficulty": 1
+  },
+  {
+    "question": "What is BFS?",
+    "course": "Data Structures",
+    "topic": "Graphs",
+    "difficulty": 2
+  }
+]
