@@ -13,3 +13,12 @@ def cosine_similarity(a: np.ndarray, b: np.ndarray) -> float:
     similarity = dot_product / (norm_a * norm_b)
 
     return float(similarity)
+
+
+def normalize_vector(vector: np.ndarray) -> np.ndarray:
+    norm = np.linalg.norm(vector)
+
+    if norm == 0:
+        raise ValueError("Cannot normalize a zero vector.")
+
+    return vector / norm
